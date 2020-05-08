@@ -8,7 +8,7 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   overflow: hidden;
-  padding: 148px 240px;
+  padding: 52px 240px;
   width: 100%;  
 `
 

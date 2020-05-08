@@ -32,6 +32,7 @@ module.exports = {
       options: {
         alias: {
           "@src": "src",
+          "@images": "src/images",
           "@components": "src/components",
           "@layouts": "src/layouts",
           "@pages": "src/pages",
@@ -57,6 +58,14 @@ module.exports = {
           }
         ],
       },
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /images\/.*\.svg/
+        }
+      }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

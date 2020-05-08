@@ -5,6 +5,7 @@ import Hero from "@components/hero"
 import Contagion from "@components/contagion"
 import Symptoms from "@components/symptoms"
 import Prevention from "@components/prevention"
+import Footer from "@components/footer"
 
 
 const IndexPage = () => (
@@ -13,7 +14,8 @@ const IndexPage = () => (
     <Hero/>
     <Contagion/>
     <Symptoms/>
-    <Prevention/> 
+    <Prevention/>
+    <Footer/>    
   </>
 )
 

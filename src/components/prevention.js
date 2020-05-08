@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const Container = styled.div`
   overflow: hidden;
-  padding: 148px 240px;
+  padding: 52px 240px 0px 240px;
   position: relative;
   width: 100%;  
 `

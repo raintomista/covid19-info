@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const Container = styled.div`
   width: 100%;
-  padding: 148px 240px;
+  padding: 52px 240px;
 `
 
 const Title = styled.h2`
